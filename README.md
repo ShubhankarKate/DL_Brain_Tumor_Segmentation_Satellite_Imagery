@@ -17,9 +17,47 @@ We then implemented the model on satellite images [dataset](https://www.cs.toron
 
 ## Project Visualisation
 
+### Brain Tumor Segmentation Task (BraTS and LGG Segmentation task)
+|![](/images/brain_tumor_1.png)|
+|:--:|
+|<b>MRI Scan vs Annotated Mask</b>|
+
+|![](/images/brain_tumor_2.png)|
+|:--:|
+|<b>Original vs Resized vs Contrast Changed</b>|
+
+|![](/images/brain_tumor_3.png)|
+|:--:|
+|<b>Input vs Actual Mask vs Predicted mask</b>|
+
+|![](/images/brain_loss.png)|
+|:--:|
+|<b>Loss vs Epoch</b>|
+
+### Satellite Imagery Segmentation Task (Road and Building Detection Datasets)
+|![](/images/satellite_1.png)|
+|:--:|
+|<b>Satellite Image vs Mask of roads</b>|
+
+|![](/images/satellite_2.png)|
+|:--:|
+|<b>Original vs Resized vs Contrast Changed</b>|
+
+|![](/images/satellite_3.png)|
+|:--:|
+|<b>Input vs Actual Mask vs Predicted mask</b>|
+
+|![](/images/satellite_loss.png)|
+|:--:|
+|<b>Loss vs Epoch</b>|
+
+For more detailed analysis, please refer to the report.
+
 ## Future Scope
 
+
 ## Contribution
+In this work, we verified that UNet image segmentation model which was essentially designed for medical imagery can also be used for Satellite image segmentation task. It draws parallel between the two important tasks and shows that optimization made for one task can be used for the other.
 
 ## Useful Links
 - [Google Colab Notebook](https://colab.research.google.com/drive/1TSZzebxKgndebXF3Q-oe4XQRq2lczZzy?usp=sharing) (We have also uploaded the .ipynb file in our repo)
